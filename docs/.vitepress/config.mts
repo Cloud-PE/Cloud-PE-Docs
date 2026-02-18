@@ -26,12 +26,12 @@ export default defineConfig({
       },
     ],
   ],
-  
+
   themeConfig: {
-        search: {
-          provider: 'local'
-        },
-    socialLinks: [{icon: 'github', link: 'https://github.com/Cloud-PE/Cloud-PE-One'}],
+    search: {
+      provider: 'local'
+    },
+    socialLinks: [{ icon: 'github', link: 'https://github.com/Cloud-PE/Cloud-PE-One' }],
     logo: "https://cloud-pe.cn/cloud-pe.svg",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -88,14 +88,17 @@ export default defineConfig({
       {
         text: "项目授权",
         items: [
-            { text: "获取授权", link: "/cooperation/permit" },
-            { text: "项目规范", link: "/cooperation/standard" },
-            { text: "授权项目",
-              items: [
-                { text: "暂无" },
-              ]},
-            ]},
-        ],
+          { text: "获取授权", link: "/cooperation/permit" },
+          { text: "项目规范", link: "/cooperation/standard" },
+          {
+            text: "授权项目",
+            items: [
+              { text: "暂无" },
+            ]
+          },
+        ]
+      },
+    ],
     darkModeSwitchLabel: '深浅模式',
     //侧边栏文字更改(移动端)
     sidebarMenuLabel: '目录',
@@ -116,7 +119,7 @@ export default defineConfig({
       prev: '上一页',
       next: '下一页',
     },
-    
+
     footer: {
       copyright: "© Cloud-PE Dev.",
       message: '<a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">鲁ICP备2023028944号-3</a>',
@@ -127,5 +130,5 @@ export default defineConfig({
     },
 
     lastUpdatedText: "最近更新于",
-  }
+  }, outDir: '../dist'
 })
