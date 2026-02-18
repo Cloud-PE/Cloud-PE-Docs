@@ -9,7 +9,7 @@ hero:
       text: 阅读
       link: /start/start
   image:
-    src: https:/cloud-pe.cn/cloud-pe.svg
+    src: /cloud-pe.svg
     alt: Logo
 
 features:
