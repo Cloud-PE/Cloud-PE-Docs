@@ -14,7 +14,7 @@ export default defineConfig({
       'link',
       {
         rel: 'icon',
-        href: 'https://cloud-pe.cn/cloud-pe.svg',
+        href: '/cloud-pe.svg',
       },
     ],
     // ArtPlayer CSS
@@ -32,7 +32,7 @@ export default defineConfig({
       provider: 'local'
     },
     socialLinks: [{ icon: 'github', link: 'https://github.com/Cloud-PE/Cloud-PE-One' }],
-    logo: "https://cloud-pe.cn/cloud-pe.svg",
+    logo: "/cloud-pe.svg",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       {
